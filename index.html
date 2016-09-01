@@ -1,0 +1,74 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8"></meta>
+<title>Alert App</title>
+<meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+<link href="css/jquery.mobile-1.4.5.min.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="css/mobile.css" />
+<link rel="stylesheet" href="css/bob.css" />
+<script src="js/jquery.min.js" type="text/javascript"></script>
+<script src="js/jquery.mobile-1.4.5.min.js" type="text/javascript"></script>
+<script src="js/mobile.js" type="text/javascript"></script>
+
+<script>
+$( document ).on( "pageinit", function() {
+        $('.header').load('header.html'); 
+    });
+</script>  
+
+</head> 
+<body> 
+
+  <div data-role="page" id="page" >
+    <div class="header"></div>
+    <div data-role="content">	
+      <div class="ui-grid-a">
+        <div class="ui-block-a text-center">
+          <a data-ajax="false" href="help.html"><img class="home-icon" src="images/help.png" /><h1>Request Help</h1></a>
+        </div>
+        <div class="ui-block-b text-center">
+          <a data-ajax="false" href="status.html"><img class="home-icon"  src="images/status.png" /><h1>Report Status</h1></a>
+        </div>
+      </div><!-- /grid-a -->  
+      <div class="ui-grid-a">
+        <div class="ui-block-a text-center">
+          <a data-ajax="false" href="news.html"><img  class="home-icon" src="images/news.png" /><h1>News</h1></a>
+        </div>
+        <div class="ui-block-b text-center">
+          <a data-ajax="false" href="person.html"><img  class="home-icon" src="images/persons.png" /><h1>Missing Persons</h1></a>
+        </div>
+      </div><!-- /grid-a -->      
+    </div>
+  </div>
+
+  <div data-role="page" id="login" >
+    <div class="header"></div>
+    <div data-role="content">	
+      <div class="overlay">
+        <h1>Login</h1>
+        <input type="text" name="Email"  value placeholder="Email"  />
+        <input type="password" name="Password"  value placeholder="Password"  />  
+        <a href="#"><h1 class="custom-button white-border" >Submit</h1></a>      
+      </div>    
+    </div>
+  </div>
+
+  <div data-role="page" id="signup" >
+    <div class="header"></div>
+    <div data-role="content">	
+      <div class="overlay">
+        <h1>Login</h1>
+        <input type="text" name="Name"  value placeholder="Name"  />
+        <input type="text" name="Email"  value placeholder="Email"  />
+        <input type="password" name="Password"  value placeholder="Password"  />  
+        <input type="password" name="Password"  value placeholder="Password"  />        
+        <a href="#"><h1 class="custom-button white-border" >Submit</h1></a>      
+      </div>    
+
+    </div>
+
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,142 @@
+.text-center{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.text-right{
+  float:right;
+}
+
+.home-icon{
+  max-height:110px;
+  max-width:110px;
+}
+
+.header a, .ui-link{
+  margin:0px;
+  height:100%;
+  text-decoration:none;
+
+}
+
+.header a, .ui-link{
+  color: #333 !important;
+}
+
+.header{
+  background-color:#800000;
+  color:#fff;
+}
+
+#banner-left{
+  padding: 0 0 0 1em;
+}
+
+#banner-left a h1{
+  color:#fff;
+  
+}
+#banner-right{
+  padding: 1em 1em 0 0;
+}
+
+#banner-right img{
+  max-height:50px;
+  max-width:50px;  
+}
+
+#search-basic{
+  width:100%;
+  margin:1em 0em 0em 0em;
+}
+
+.head-icon{
+  max-width:40px;
+  max-height:40px;
+  margin:0px 0px 0px 1em;
+}
+
+.custom-button{
+    background-color: #800000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    margin:1em;
+    border-radius: 8px;
+}
+
+
+.text-right{
+  float:right;
+  text-align: right;
+}
+
+.text-left{
+  float:left;
+}
+
+.head{
+  margin:0px;
+}
+
+.page-head{
+  display:flex;
+}
+
+#custom-collapsible {
+    width: 95% !important; 
+    margin-left: 9px !important; 
+    border-width: 0px !important; 
+    background-color: white  !important;
+}
+
+#custom-collapsible h3 a {
+    border-width: 0px !important; 
+    background: white  !important;
+}
+
+.white-border{
+  border: 1px solid white;
+}
+
+.overlay{
+  background-color:#800000;
+    font-size: 1.2em;
+    margin:1em;
+    border-radius: 8px;  
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;    
+}
+
+.snippet {
+  font-size: 1em;
+  line-height: 1.3;
+  font-family: sans-serif;  
+  white-space: wrap;
+  text-decoration:none;
+  word-wrap: normal;
+  font-weight:400;
+  overflow:visible;
+}
+
+.nowrap{
+  white-space: nowrap;
+}
+
+.nowidth{
+  width:auto !important;
+}
+
+.red{
+  color:red;
+}
+
+.green{
+  color:green;
+}
